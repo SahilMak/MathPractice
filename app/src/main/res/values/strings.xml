@@ -6,4 +6,15 @@
     <string name="sub_button">Subtraction</string>
     <string name="mult_button">Multiplication</string>
     <string name="div_button">Division</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_subtraction">Subtraction</string>
+    <string name="title_activity_multiplication">Multiplication</string>
+    <string name="title_activity_division">Division</string>
+    <string name="number1">#1</string>
+    <string name="number2">#2</string>
+    <string name="sign">!</string>
+    <string name="hint">Answer</string>
+    <string name="submit_button">Submit</string>
+    <string name="next_button">Next</string>
+    <string name="right_wrong">rw</string>
 </resources>

@@ -1,26 +1,24 @@
 package com.example.sahil.mathpractice;
 
 import android.support.v7.app.ActionBarActivity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class MainMenu extends ActionBarActivity {
+public class Subtraction extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_subtraction);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main_menu, menu);
+        getMenuInflater().inflate(R.menu.menu_subtraction, menu);
         return true;
     }
 
@@ -37,25 +35,5 @@ public class MainMenu extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void addition(View view){
-        Intent intent = new Intent(this, Addition.class);
-        startActivity(intent);
-    }
-
-    public void subtraction(View view){
-        Intent intent = new Intent(this, Subtraction.class);
-        startActivity(intent);
-    }
-
-    public void multiplication(View view){
-        Intent intent = new Intent(this, Multiplication.class);
-        startActivity(intent);
-    }
-
-    public void division(View view){
-        Intent intent = new Intent(this, Division.class);
-        startActivity(intent);
     }
 }
