@@ -26,4 +26,30 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="140dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number1"
+        android:id="@+id/numberOne"
+        android:ems="4"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/plusSign"
+        android:layout_alignBottom="@id/plusSign"
+        android:layout_toLeftOf="@+id/plusSign"
+        android:layout_toStartOf="@+id/plusSign" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number2"
+        android:id="@+id/numberTwo"
+        android:ems="4"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/plusSign"
+        android:layout_alignBottom="@id/plusSign"
+        android:layout_toRightOf="@+id/rightOrWrong"
+        android:layout_toEndOf="@+id/rightOrWrong" />
 </RelativeLayout>
