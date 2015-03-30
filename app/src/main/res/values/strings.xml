@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Math Practice</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="add_button">Addition</string>
+    <string name="sub_button">Subtraction</string>
+    <string name="mult_button">Multiplication</string>
+    <string name="div_button">Division</string>
 </resources>
