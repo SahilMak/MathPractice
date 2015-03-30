@@ -38,7 +38,8 @@
         android:layout_alignBaseline="@+id/plusSign"
         android:layout_alignBottom="@id/plusSign"
         android:layout_toLeftOf="@+id/plusSign"
-        android:layout_toStartOf="@+id/plusSign" />
+        android:layout_toStartOf="@+id/plusSign"
+        tools:ignore="TextViewEdits" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,6 +51,19 @@
         android:inputType="number"
         android:layout_alignBaseline="@+id/plusSign"
         android:layout_alignBottom="@id/plusSign"
-        android:layout_toRightOf="@+id/rightOrWrong"
-        android:layout_toEndOf="@+id/rightOrWrong" />
+        android:layout_toRightOf="@+id/plusSign"
+        android:layout_toEndOf="@+id/plusSign"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="6"
+        android:gravity="center"
+        android:id="@+id/answer"
+        android:layout_below="@+id/numberOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/hint" />
 </RelativeLayout>
